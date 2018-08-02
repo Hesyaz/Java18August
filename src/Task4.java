@@ -9,5 +9,6 @@ public class Task4 {
         System.out.println("Программирование это"+" " + a +"!");
 
 
+
     }
 }

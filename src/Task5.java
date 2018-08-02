@@ -15,6 +15,7 @@ public class Task5 {
         System.out.println(b +" "+ a);// вывод переменная б + переменная а
 
 
+
     }
 
 }

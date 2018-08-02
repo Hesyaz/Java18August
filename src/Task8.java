@@ -12,5 +12,6 @@ public class Task8 {
         x = s.nextLine();
         y= s.nextLine();
         System.out.println("INSERT INTO points (x, y) VALUES ('" + x +"', '" + y +"')");
+
     }
 }

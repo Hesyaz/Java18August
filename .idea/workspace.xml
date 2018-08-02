@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01ecddb7-02ff-497b-b25a-d35dc90a32e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="01ecddb7-02ff-497b-b25a-d35dc90a32e5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533199567263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533200034539" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -223,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task11">
+  <component name="RunManager" selected="Application.Task9">
     <configuration name="Task10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task10" />
       <module name="Java18August" />
@@ -276,9 +267,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task11" />
-        <item itemvalue="Application.Task10" />
         <item itemvalue="Application.Task9" />
+        <item itemvalue="Application.Task10" />
+        <item itemvalue="Application.Task11" />
         <item itemvalue="Application.Task8" />
         <item itemvalue="Application.Task7" />
       </list>
@@ -298,7 +289,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Learn" />

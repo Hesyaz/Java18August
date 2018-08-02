@@ -19,5 +19,6 @@ public class Task10 {
         System.out.println("User ID=" + user +"; Password="+ pass +"; Host="+ host +"; Port="+ port + "; Database="+ db +";");
 
 
+
     }
 }

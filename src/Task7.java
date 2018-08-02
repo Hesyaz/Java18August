@@ -10,5 +10,6 @@ public class Task7 {
         System.out.println("SELECT first_name, last_name, group\n" +
                 "FROM students WHERE student_id = " + "'" + id + "'");
 
+
     }
 }

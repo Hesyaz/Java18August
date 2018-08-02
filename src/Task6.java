@@ -12,6 +12,7 @@ public class Task6 {
         System.out.println("Меня зовут" + " " + surname +"," + name + " "+ surname);
 
 
+
     }
 
 }

@@ -14,5 +14,6 @@ public class Task9 {
         r= s.nextLine();
         fill = s.nextLine();
         System.out.println("<circle cx=\"" +cx +"\" cy=\"" + cy +"\" r=\"" +r+ "\" fill=\"" +fill+"\"/>");
+
     }
 }
