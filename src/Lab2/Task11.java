@@ -2,7 +2,7 @@ package Lab2;
 
 import java.util.Scanner;
 
-public class Task10 {
+public class Task11 {
     public static void main(String[] args) {
         double aDeg,bDeg;
         double  result;
@@ -13,10 +13,7 @@ public class Task10 {
 
         double aRad= aDeg*(Math.PI)/180;
         double bRad= bDeg*(Math.PI)/180;
-         result = Math.sin(aRad)*Math.cos(bRad)+ Math.cos(aRad)* Math.sin(bRad);
-        System.out.printf("Значеник угла указано в градусах %.4f",result);
-
-
-
+        result= 3*Math.sin(2*aRad)* Math.cos(3*bRad);
+        System.out.printf("Значеник угла указано в градусах %.4f" , result);
     }
 }
