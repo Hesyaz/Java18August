@@ -16,7 +16,7 @@ public class Task20 {
         System.out.println("Значение у должно быть неотрицательным");
         return;
     }
-    if  ((Math.sqrt(x+ Math.sqrt(y)))<=0){
+    if  ((x+ Math.sqrt(y))<=0){
         System.out.println("Подкоренное выражение должно быть неотрицательным");
         return;
     }
