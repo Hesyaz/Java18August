@@ -12,17 +12,18 @@ public class Task14 {
 
         sum = 0;
 
-
-        while(A<B){
+        if(A<=B){
+        while(A<=B){
             sum =sum + A;
             A++;
           //  System.out.println(sum);
-        }
-        while(A>=B){
+        }}
+        else{
+     while(A>=B){
             sum = sum + A;
             A--;
-           // System.out.println(sum);
-        }
+         // System.out.println(sum);
+       }}
         System.out.println(sum);
     }
 

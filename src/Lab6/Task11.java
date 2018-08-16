@@ -7,8 +7,9 @@ public class Task11 {
         while(i<=500){
             result = result +i;
             i++;
+            System.out.print(result +" ");
         }
-        System.out.println(result);
+        System.out.println("Ответ: "+ result);
 
     }
 }
