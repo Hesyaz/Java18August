@@ -7,24 +7,22 @@ public class task20_r {
         Scanner s;
         s = new Scanner(System.in);
         int a,count1,count2;
-        a=s.nextInt();
         count1=0;
         count2=0;
 
          do {
-             if (a < 83) {
-                 while (a < 83) {
-                     count1++;
-                 }
+             a = s.nextInt();
+             if( a > 83 && a < 199){
+                 //System.out.printf("Число находиьтся в промежутке 83-199\n");
              }
-             if (a > 199) {
-                 while (a > 199) {
-                     count2++;
-                 }
-             }
-         } while ( a<83 && a>199);
-            System.out.println("Количество слева:"+count1);
-            System.out.println("количество справа:"+count2);
+             else if( a<83){
+                 count1++;
+             }else {count2++;}
+
+
+         } while ( a<83 || a>199);
+        System.out.printf("Количество слева: %d, количество справа: %d",count1,count2);
+
         }
     }
 

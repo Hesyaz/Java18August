@@ -6,10 +6,10 @@ public class Task21 {
     public static void main(String[] args) {
         Scanner s;
         s = new Scanner(System.in);
-         int a,b,sum,product;
+         int a,b,product;
         a = s.nextInt();
         b = s.nextInt();
-        sum=0;
+        long sum=0;
 
         if(a<=b)
             while (a<=b){    //работает для а меньше б . но для б меньше а не работает
