@@ -19,19 +19,6 @@ public class Task27 {
             System.out.print(".");
             d++;
         }
-       // int n = 15;
-//        if(y<0 || y>15){
-//            System.out.println("Значение Y должно быть в интервале [0, 15]");
-//            return;
-       // }
-
-//        while(n<=15){
-//            System.out.print(".\n");
-//            n++;
-//        }
-
-
-
 
     }
 }

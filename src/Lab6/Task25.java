@@ -9,14 +9,16 @@ public class Task25 {
         int n;// сколько нужно
         int a =0;//уже
         n = s.nextInt();
-        while (a<n){
+        while (a < n){
             System.out.print("#");
             a++;
-            if(a==20){
+            if(a%20==0){
                 System.out.println();
             }
         }
 
-
+        if (n<0){
+            System.out.println("Значение N должно быть неотрицательным");
+        }
     }
 }
