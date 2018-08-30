@@ -17,6 +17,7 @@ public class Task33 {
 //            }
 //            System.out.println();
 //        }
+
         int count=0;
         for(int a=0;a<=9;a++){
             int i=0;

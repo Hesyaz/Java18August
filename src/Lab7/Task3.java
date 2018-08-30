@@ -11,7 +11,12 @@ public class Task3 {
             return;
         }
         String[] arr = data.split(" ");// делим на части ориентируясь на пробел
+        int n;
+        n = arr.length-1;
+        while(n>=0){
+            System.out.print(arr[n]);
+            n--;
 
+        }
+    }}
 
-    }
-}
