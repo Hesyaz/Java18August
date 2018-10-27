@@ -1,5 +1,6 @@
 package Lab7;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Task12 {
@@ -19,15 +20,20 @@ public class Task12 {
         String[] top1 = top.split(" ");
         String[] left1 = left.split(" ");
 
-        int[] numtop = new int[top1.length];
-        int[] numleft = new int[left1.length];
+        for(int i=0;i<top1.length;i++){
+            for(int j=0;j<left1.length;j++){
+                if(top1[i]==left1[j]){
+                    System.out.println("Элементы в массивах равны" + top1[i]);
+                }
+            }
+        }
 
-        for (int i = 0; i < top1.length; i++) {
-            numtop[i] = Integer.parseInt(left1[i]);
-            numleft[i] = Integer.parseInt(top1[i]);
-            System.out.print(numleft[i] * numtop[i] + " ");
+       // System.out.println(Arrays.equals(top1,left1));
+
+
+
         }
 
 
     }
-}
+
